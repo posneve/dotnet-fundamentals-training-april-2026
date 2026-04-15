@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>0b33ac8d-3ec1-4f9c-9a8c-70e74f1f54be</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.6" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.6" />
+    </ItemGroup>
+
+</Project>
