@@ -1,6 +1,9 @@
 ﻿Console.WriteLine("Starter opp");
 
 
+
+
+
 // myClass.WriteName();
 
 //Console.WriteLine($"Antall klasser {classes.Count()}");
