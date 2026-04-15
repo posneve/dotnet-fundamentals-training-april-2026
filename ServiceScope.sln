@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceScope", "ServiceScop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleServiceScope", "ConsoleServiceScope\ConsoleServiceScope.csproj", "{F371105B-4B2F-4955-91FC-B176F8A98027}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\Tests\TestProject1\TestProject1.csproj", "{D2478A40-DA5E-4DF6-AD0A-CE6D5D09D0A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "Tests\TestProject1\TestProject1.csproj", "{D2478A40-DA5E-4DF6-AD0A-CE6D5D09D0A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
