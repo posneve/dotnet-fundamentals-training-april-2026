@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace ServiceScope.Filters;
+namespace ServiceScope.Middleware;
 
 public class ExceptionHandlingMiddleware(RequestDelegate next)
 {

@@ -1,16 +1,6 @@
 ﻿Console.WriteLine("Starter opp");
 
 
-var dbContext = new MyDbContext(DbContextHelper.CreateBuilder().Options);
-
-dbContext.Database.EnsureCreated();
-
-
-dbContext.Add(new MyClass("Test"));
-dbContext.SaveChanges();
-
-var res = dbContext.MyClasses.ToList();
-
 // myClass.WriteName();
 
 //Console.WriteLine($"Antall klasser {classes.Count()}");

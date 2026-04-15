@@ -2,13 +2,6 @@ using Microsoft.Extensions.Configuration;
 
 namespace ConsoleServiceScope;
 
-public static class Constants
-{
-    public static string SqlLiteConnectionString =  "Data Source=:memory:";
-
-
-}
-
 public static class Secrets
 {
     private static readonly IConfiguration Config = new ConfigurationBuilder()

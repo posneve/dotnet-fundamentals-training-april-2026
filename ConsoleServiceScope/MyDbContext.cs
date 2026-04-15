@@ -2,6 +2,8 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
+namespace ConsoleServiceScope;
+
 public class MyDbContext(DbContextOptions<MyDbContext> options) : DbContext(options)
 {
     public DbSet<MyClass> MyClasses { get; set; } = null!;
@@ -12,7 +14,7 @@ public class MyDbContextFactory : IDesignTimeDbContextFactory<MyDbContext>
     public MyDbContext CreateDbContext(string[] args)
     {
         var options = new DbContextOptionsBuilder<MyDbContext>()
-            .UseSqlite(ConsoleServiceScope.Constants.SqlLiteConnectionString)
+            .UseSqlite("DataSource=:memory:")
             .Options;
         return new MyDbContext(options);
     }
